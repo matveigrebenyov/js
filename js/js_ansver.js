@@ -67,3 +67,67 @@ for (let i = 1; i < 8; i++) {
 } */
 /*  continue - похволяет пропускать шаг, котороый не нужен. break - полностью прирывает цикл. 
 switch только для прямого сравнения */
+
+/* let num = 20;
+
+function showFirstMessage(text) {
+    console.log(text);
+    let num = 100;
+    console.log(num);
+}
+
+showFirstMessage('h w');
+console.log(num); */
+
+/* function calc(a, b) {
+    return a + b;
+}
+
+console.log(calc(3,78)); */
+
+/* function ret() {
+    let num = 50;
+    return num ;
+}
+
+const anotherNum = ret();
+console.log(anotherNum);
+
+
+const logger = function() {
+    console.log('de')
+};
+
+logger();
+
+
+const calc = (a, b) => a + b;
+
+const calci = (a, b) => {
+    console.log('54');
+    return a + b;
+}; */
+
+/* const str = 'test';
+const arr = [1,2,3];
+
+console.log(str.toUpperCase());
+
+const fruit = 'Some fruit';
+
+console.log(fruit.indexOf('fruit')); */
+
+/* первые два одинаковые, в аршументе указывается начало и конец строки, либо просто начало. в тертьем используется в первом аргументе указать с какого символа начинать и потом количество симвволов */
+
+/* const logg = 'hello world';
+console.log(logg.slice(6, 11));  
+console.log(logg.substring(6, 11));
+console.log(logg.substr(6, 5));
+
+
+const num = 12.2;
+console.log(Math.round(num));
+
+const test = '12.2px';
+console.log(parseInt(test));
+console.log(parseFloat(test)); */
